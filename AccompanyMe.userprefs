@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{5930C2C2-A46C-4C07-B83A-CCBEC9CCE6C4}|Default">
+  <MonoDevelop.Ide.ItemProperties.AccompanyMe.Mobile.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AccompanyMe.Mobile/AccompanyMe.Mobile.Android/GcmService.cs">
+    <Files>
+      <File FileName="AccompanyMe.Mobile/AccompanyMe.Mobile.Android/MainActivity.cs" Line="45" Column="13" />
+      <File FileName="AccompanyMe.Mobile/AccompanyMe.Mobile.Android/GcmService.cs" Line="64" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AccompanyMe" expanded="True">
+            <Node name="AccompanyMe.Mobile" expanded="True">
+              <Node name="Services" expanded="True" />
+            </Node>
+            <Node name="AccompanyMe.Mobile.Droid" expanded="True">
+              <Node name="GcmService.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/alberto/Projects/biitheck/AccompanyMe.git/AccompanyMe.Mobile/AccompanyMe.Mobile/ViewModels/MapViewModel.cs" relfile="AccompanyMe.Mobile/AccompanyMe.Mobile/ViewModels/MapViewModel.cs" line="77" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AccompanyMe.Mobile.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+</Properties>

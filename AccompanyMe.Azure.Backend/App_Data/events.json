@@ -1,0 +1,26 @@
+﻿[
+  {
+    "Id": "0d43939e-b0b6-40fe-889b-dc642d398a40",
+    "Name": "Evento 1",
+    "Description": "Descripcion del Evento 1",
+    "Date": "2017-04-23T18:25:43.511Z",
+    "Latitude": 18.916770,
+    "Longitude": -99.233885
+  },
+  {
+    "Id": "450c024f-378e-4402-945a-bcd42f62ee9e",
+    "Name": "Evento 2",
+    "Description": "Descripcion del Evento 2",
+    "Date": "2017-04-24T18:25:43.511Z",
+    "Latitude": 18.915806,
+    "Longitude": -99.233928
+  },
+  {
+    "Id": "1b538845-7c9f-4a74-9d8b-4b6f036b32c5",
+    "Name": "Evento 3",
+    "Description": "Descripcion del Evento 3",
+    "Date": "2017-04-25T18:25:43.511Z",
+    "Latitude": 18.920039,
+    "Longitude": -99.222313
+  }
+]

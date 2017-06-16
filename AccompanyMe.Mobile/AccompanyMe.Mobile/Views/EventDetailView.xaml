@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps" 
+             x:Class="AccompanyMe.Mobile.Views.EventDetailView" Title="{Binding Item.Name}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <ScrollView Grid.Row="0">
+            <StackLayout>
+                <Grid Margin="12, 0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto" />
+                        <RowDefinition Height="*" />
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0" Text="{Binding Item.Name}" FontSize="Large" />
+                    <Label Grid.Row="1" Text="{Binding Item.Description}" FontSize="Medium" />
+                </Grid>
+            </StackLayout>
+            <StackLayout VerticalOptions="StartAndExpand" Padding="30">
+                <maps:Map WidthRequest="320" HeightRequest="200" x:Name="MyMap" IsShowingUser="true" MapType="Hybrid" />
+            </StackLayout>
+        </ScrollView>
+        <Button Grid.Row="1" Text="Delete" Command="{Binding DeleteCommand}" />
+    </Grid>
+</ContentPage>
